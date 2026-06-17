@@ -53,7 +53,7 @@ class CartPage extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            "Apple iPhone 17 Pro",
+                            "Apple iPhone 17 Pro Max",
                             style: TextStyle(
                               fontSize: 16,
                               fontWeight: FontWeight.bold,
@@ -72,7 +72,7 @@ class CartPage extends StatelessWidget {
                           Row(
                             children: [
                               Text(
-                                "₹1,19,999",
+                                "₹1,28,999",
                                 style: TextStyle(
                                   fontSize: 16,
                                   fontWeight: FontWeight.bold,
@@ -82,7 +82,7 @@ class CartPage extends StatelessWidget {
                               SizedBox(width: 6),
 
                               Text(
-                                "₹1,39,999",
+                                "₹1,49,999",
                                 style: TextStyle(
                                   fontSize: 12,
                                   color: Colors.grey,
@@ -226,7 +226,7 @@ class CartPage extends StatelessWidget {
                       children: [
                         Text("Price (1 item)", style: TextStyle(fontSize: 15)),
 
-                        Text("₹1,19,999", style: TextStyle(fontSize: 15)),
+                        Text("₹1,28,999", style: TextStyle(fontSize: 15)),
                       ],
                     ),
                     SizedBox(height: 10),
@@ -243,7 +243,7 @@ class CartPage extends StatelessWidget {
                       children: [
                         Text("Total Amount", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
 
-                        Text("₹1,19,999", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+                        Text("₹1,28,999", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
                       ],),
                   ],
                 ),
@@ -266,7 +266,7 @@ class CartPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "₹1,19,999",
+                  "₹1,28,999",
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
                 Text(
