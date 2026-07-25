@@ -4,6 +4,7 @@ import 'product.dart';
 import 'cart.dart';
 import 'profile.dart';
 
+
 class Navigation extends StatefulWidget {
   final String username;
 
@@ -23,9 +24,9 @@ class _NavigationState extends State<Navigation> {
       const ProductPage(),
       const CartPage(),
       const ProfilePage(),
-    ];
+      ];
 
-    return Scaffold(
+      return Scaffold(
       body: IndexedStack(index: currentIndex, children: pages),
 
       bottomNavigationBar: BottomNavigationBar(
@@ -55,6 +56,7 @@ class _NavigationState extends State<Navigation> {
             icon: Icon(Icons.account_box),
             label: "Account",
           ),
+
         ],
       ),
     );

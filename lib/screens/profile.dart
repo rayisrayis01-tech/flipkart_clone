@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'splash.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
@@ -135,6 +136,18 @@ class ProfilePage extends StatelessWidget {
                   leading: Icon(Icons.logout, color: Colors.red),
                   title: Text("Logout"),
                   trailing: Icon(Icons.arrow_forward),
+                  onTap: () {
+                   
+                        Navigator.pop(context);
+
+                        Navigator.pushAndRemoveUntil(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const SplashScreen(),
+                          ),
+                          (route) => false,
+                        );
+                      },
                 ),
               ],
             ),

@@ -41,7 +41,7 @@ class _SplashScreenState extends State<SplashScreen> {
               width: 100,
             ),
 
-            SizedBox(height: 20),
+            SizedBox(height: 20,),
 
             Text(
               "Flipkart",

@@ -10,7 +10,8 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  @override
+
+ @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -62,7 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              // SEARCH BAR
+              
               Container(
                 height: 50,
                 margin: EdgeInsets.all(10),
@@ -194,7 +195,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     childAspectRatio: 0.8,
                   ),
 
+
                   children: [
+                     
                     Card(
                       child: Column(
                         children: [
@@ -205,10 +208,8 @@ class _HomeScreenState extends State<HomeScreen> {
                               width: double.infinity,
                             ),
                           ),
-
-                          Padding(
+                          const Padding(
                             padding: EdgeInsets.all(8),
-
                             child: Text(
                               "iPhone 15",
                               style: TextStyle(fontWeight: FontWeight.bold),
@@ -263,7 +264,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         ],
                       ),
                     ),
-
                     Card(
                       child: Column(
                         children: [
@@ -286,7 +286,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         ],
                       ),
                     ),
-
                     Card(
                       child: Column(
                         children: [
@@ -316,6 +315,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           Expanded(
                             child: Image.asset(
                               "assets/images/washing machine.jpg",
+
                               fit: BoxFit.cover,
                               width: double.infinity,
                             ),
